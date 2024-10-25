@@ -1,0 +1,811 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Master AI - From Basics to Real-World Systems.">
+      
+      
+        <meta name="author" content="Dan Kornas">
+      
+      
+        <link rel="canonical" href="https://ailearninghub.io/">
+      
+      
+      
+      
+      <link rel="icon" href="assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>AI Learning Hub - AI Learning Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="34633d53-48a1-47cb-9286-203b7d163673"></script>
+  
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="AI Learning Hub" class="md-header__button md-logo" aria-label="AI Learning Hub" data-md-component="logo">
+      
+  <img src="assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI Learning Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AI Learning Hub
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="AI Learning Hub" class="md-nav__button md-logo" aria-label="AI Learning Hub" data-md-component="logo">
+      
+  <img src="assets/logo.png" alt="logo">
+
+    </a>
+    AI Learning Hub
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commissions:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Important Notes:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ready-to-start-earning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ready to start earning?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="_1"></h1>
+<div style="width: 75%; margin: 0 auto; margin-top: 0; text-align: left;">
+  <p style="text-align: center; font-weight: bold; font-size: 5vw; margin-top: 0; margin-bottom: 0;">Your Complete AI Roadmap</p>
+  <p style="text-align: center; font-weight: bold; font-size: 4vw; margin-top: 0;">From Zero to Real-World Projects</p>
+
+  <p style="text-align: center;">Hi! I’m Dan, a Machine Learning Engineer, and I’m on a journey to build the ultimate AI Roadmap, designed to help you learn how to create, deploy, and scale machine learning systems from basics to advanced levels.</p>
+
+  <!-- Button with YouTube logo and smaller size -->
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://www.youtube.com/@dankornas?sub_confirmation=1" target="_blank" style="display: inline-block; background-color: #FF0000; color: white; padding: 8px 15px; text-align: center; text-decoration: none; font-weight: bold; font-size: 14px; border-radius: 8px;">
+    <i class="fab fa-youtube" style="font-size: 20px; width: 17px; height: 17px; margin-right: 5px; vertical-align: middle;"></i> Check out my Youtube videos
+  </a>
+</div>
+</div>
+
+<hr />
+<style>
+.green-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: none; /* No border */
+}
+
+.green-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    color: white; /* Ensure text stays white on hover */
+}
+</style>
+
+<div style="width: 75%; margin: 0 auto; text-align: left;">
+    <p style="text-align: left; font-weight: bold; font-size: 1.9em;">Join the Program</p>
+
+    <p style="font-size: 1.0em; margin-top: 1em;">
+        In this continuous cohort model, you can learn at your own pace or join the community to learn together as I create and release new content. Each month, fresh topics and projects are added, so there’s always something exciting to explore. You’ll have the flexibility to move through the curriculum however you prefer, while still having access to the support of a vibrant community of AI learners.
+        <br><br>
+        Whether you’re looking to master the latest deep learning techniques, deploy machine learning models, or scale AI systems, you’ll be part of the journey, growing together with the community as the AI Learning Hub evolves.
+    </p>
+
+</div>
+
+<div style="width: 75%; margin: 0 auto; text-align: left;">
+
+<p style="text-align: left; font-weight: bold; font-size: 1.3em;">What will you get?</p>
+
+
+✔ 10+ hours of AI content from the fundamentals to advanced.<br><br>
+
+✔ Hands-on machine learning and deep learning projects with step-by-step coding instructions.<br><br>
+
+✔ Real-world end-to-end projects to help you build a professional AI portfolio.<br><br>
+
+✔ A private collaborative community of AI learners and professionals.<br><br>
+
+✔ Receive feedback on your projects from peers and community members.<br><br>
+
+✔ Direct access to your instructor.<br><br>
+
+✔ Lifetime access to every past and future courses and content.
+
+</div>
+<p><br></p>
+<div style="width: 75%; margin: 0 auto; text-align: left;">
+
+    <p style="text-align: left; font-weight: bold; font-size: 1.3em;">30-Day Free Trial – No Risk, No Problem!</p>
+
+    <p style="font-size: 1.0em; margin-top: 1em;">
+        Join today and enjoy a full 30-day free trial with complete access to all content. No strings attached – experience the program and decide if it's right for you. 
+        If you're not satisfied, you can cancel at any time during the trial with zero cost. We’re confident you’ll love it, but you’ve got nothing to lose with our risk-free guarantee!
+    </p>
+
+</div>
+<p><br></p>
+<div class="grid cards" style="width: 75%; margin: 0 auto; text-align: center;">
+<div class="admonition success">
+<p class="admonition-title"><span style='font-size: 1.7em;'><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg></span> Monthly</span></p>
+<p><span style="font-size: 1.2em;">Subscribe monthly for access and join as many iterations as you want, with the freedom to cancel anytime.</span></p>
+<p><a href="https://ailearninghub.io/l/monthly-membership" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; font-size: 1.2em; font-weight: bold; transition: all 0.3s ease; transform: scale(1);" onmouseover="this.style.backgroundColor='#388E3C'; this.style.transform='scale(1.05)'" onmouseout="this.style.backgroundColor='#4CAF50'; this.style.transform='scale(1)'">Get Monthly Access</a></p>
+</div>
+<div class="admonition success">
+<p class="admonition-title"><span style='font-size: 1.7em;'><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2c-.9 0-2 1-2 2H8c0-1-1.1-2-2-2H2v9c0 1 1 2 2 2h2.2c.4 2 1.7 3.7 4.8 4v2.08C8 19.54 8 22 8 22h8s0-2.46-3-2.92V17c3.1-.3 4.4-2 4.8-4H20c1 0 2-1 2-2V2zM6 11H4V4h2zm14 0h-2V4h2z"/></svg></span> Lifetime</span></p>
+<p><span style="font-size: 1.2em;">Pay once to join the program and get lifetime access. You’re free to take part in as many iterations as you wish, with no limitations.</span></p>
+<p><a href="https://ailearninghub.io/l/ai-membership" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; font-size: 1.2em; font-weight: bold; transition: all 0.3s ease; transform: scale(1);" onmouseover="this.style.backgroundColor='#388E3C'; this.style.transform='scale(1.05)'" onmouseout="this.style.backgroundColor='#4CAF50'; this.style.transform='scale(1)'">Get Lifetime Access</a></p>
+</div>
+</div>
+<p><br></p>
+<hr />
+<div style="width: 75%; margin: 0 auto; margin-top: 0; text-align: left;">
+
+<h2><strong>Program Syllabus</strong></h2>
+
+<p>The AI Learning Hub is your ongoing path to mastering AI. This syllabus outlines the key topics you’ll cover throughout the program. Each section is designed to build on the last, ensuring you develop both foundational and advanced skills through practical, hands-on learning. As part of this continuous cohort, new content will be added regularly, so you’ll always be learning the latest in AI.</p>
+
+<p>This schedule is flexible and may change depending on the learning pace of everyone. But don’t worry—once the materials are published, you can go back and learn at your own speed whenever you want.</p>
+
+
+
+<details>
+    <summary style="font-size: 1.3em; font-weight: bold;">Phase 1: Python Programming</summary>
+    <ul style="font-size: 1.2em;">
+        <li><strong>Data Types & Variables:</strong> Understand basic data types and variables.</li>
+        <li><strong>Loops & Iterators:</strong> Learn how to iterate over data efficiently.</li>
+        <li><strong>Functions & Lambdas:</strong> Write reusable code and anonymous functions.</li>
+        <li><strong>Lists, Tuples, Sets, Dictionaries:</strong> Work with core Python data structures.</li>
+        <li><strong>Conditionals:</strong> Make decisions using if, elif, and else.</li>
+        <li><strong>Exception Handling:</strong> Handle errors gracefully.</li>
+        <li><strong>Classes & OOP:</strong> Grasp object-oriented programming, inheritance, polymorphism, and encapsulation.</li>
+        <li><strong>Magic Methods:</strong> Explore Python’s special methods that add functionality to classes.</li>
+    </ul>
+</details>
+
+<details>
+    <summary style="font-size: 1.3em; font-weight: bold;">Phase 2: Data Analysis with Pandas</summary>
+    <ul style="font-size: 1.2em;">
+        <li><strong>Series & DataFrames:</strong> Understand the building blocks of Pandas.</li>
+        <li><strong>Editing & Retrieving Data:</strong> Learn data selection and modification techniques.</li>
+        <li><strong>Importing Data:</strong> Import data from CSV, Excel, and databases.</li>
+        <li><strong>Grouping Data:</strong> Use `groupby` for aggregate operations.</li>
+        <li><strong>Merging & Joining Data:</strong> Combine datasets efficiently.</li>
+        <li><strong>Sorting & Filtering:</strong> Organize and retrieve data.</li>
+        <li><strong>Applying Functions to Data:</strong> Use functions to manipulate and clean data.</li>
+    </ul>
+</details>
+
+<details>
+    <summary style="font-size: 1.5em; font-weight: bold;">Phase 3: Data Visualization with Matplotlib</summary>
+    <ul style="font-size: 1.2em;">
+        <li><strong>Basic Plotting:</strong> Create line plots, scatter plots, and histograms.</li>
+        <li><strong>Bar Charts & Pie Charts:</strong> Display categorical data.</li>
+        <li><strong>Time Series Plots:</strong> Visualize data over time.</li>
+        <li><strong>Live Data Plotting:</strong> Create dynamic visualizations.</li>
+    </ul>
+</details>
+
+<details>
+    <summary style="font-size: 1.3em; font-weight: bold;">Phase 4: Numerical Computing with NumPy</summary>
+    <ul style="font-size: 1.2em;">
+        <li><strong>Creating Arrays:</strong> Learn about arrays and their manipulation.</li>
+        <li><strong>Array Indexing & Slicing:</strong> Access and modify elements in arrays.</li>
+        <li><strong>Universal Functions:</strong> Perform fast element-wise operations on arrays.</li>
+        <li><strong>Linear Algebra & Statistics Functions:</strong> Apply matrix operations and statistical computations.</li>
+    </ul>
+</details>
+
+<details>
+    <summary style="font-size: 1.3em; font-weight: bold;">Phase 5: Machine Learning Fundamentals (with Projects)</summary>
+    <ul style="font-size: 1.2em;">
+        <li><strong>ML Life Cycle:</strong> Understand the workflow of building machine learning systems.</li>
+        <li><strong>Key Algorithms:</strong> Explore algorithms like Linear Regression, Decision Trees, Random Forests, and K-Nearest Neighbors.</li>
+        <li><strong>Evaluation Metrics:</strong> Learn about precision, recall, F1-scores, and the importance of model evaluation.</li>
+        <li><strong>Overfitting & Underfitting:</strong> Learn how to handle data-related challenges.</li>
+        <li><strong>Projects:</strong> Apply your knowledge through hands-on projects, solving real-world problems.</li>
+    </ul>
+</details>
+
+<details>
+    <summary style="font-size: 1.3em; font-weight: bold;">Phase 6: Deep Learning Fundamentals (with Projects)</summary>
+    <ul style="font-size: 1.2em;">
+        <li><strong>Neural Networks:</strong> Learn how artificial neural networks work.</li>
+        <li><strong>Activation Functions:</strong> Explore functions like Sigmoid, ReLU, and Tanh.</li>
+        <li><strong>Convolutional Neural Networks (CNNs):</strong> Understand image-based models and apply them to real-world data.</li>
+        <li><strong>Recurrent Neural Networks (RNNs) & LSTMs:</strong> Work with sequential data for time series or text.</li>
+        <li><strong>Hyperparameter Tuning & Optimization:</strong> Fine-tune models for better performance.</li>
+        <li><strong>Projects:</strong> Implement real-world deep learning models and deploy them into production environments.</li>
+    </ul>
+</details>
+
+<details>
+    <summary style="font-size: 1.3em; font-weight: bold;">Phase 7: Model Deployment & MLOps</summary>
+    <ul style="font-size: 1.2em;">
+        <li><strong>Model Deployment Strategies:</strong> Learn how to deploy models using Flask, FastAPI, and cloud platforms.</li>
+        <li><strong>Docker & Kubernetes:</strong> Containerize your applications and deploy them at scale.</li>
+        <li><strong>Kubeflow:</strong> Set up workflows for automating ML pipelines.</li>
+        <li><strong>MLflow:</strong> Track experiments and manage the machine learning lifecycle.</li>
+        <li><strong>Airflow:</strong> Manage data workflows and model pipelines.</li>
+        <li><strong>Cloud-Based Deployment:</strong> Deploy your models on platforms like AWS, GCP, and Azure.</li>
+        <li><strong>Monitoring & Logging:</strong> Use tools like Prometheus and Grafana to monitor model performance and ensure they remain accurate over time.</li>
+        <li><strong>CI/CD:</strong> Automate the deployment of machine learning models using CI/CD pipelines.</li>
+    </ul>
+</details>
+
+<details>
+    <summary style="font-size: 1.3em; font-weight: bold;">Phase 8: End-to-End Machine Learning Projects</summary>
+    <ul style="font-size: 1.2em;">
+        <li><strong>Complete ML Pipelines:</strong> Learn how to build a fully functional machine learning pipeline from data collection to deployment.</li>
+        <li><strong>Data Preprocessing:</strong> Clean, process, and prepare data for machine learning models.</li>
+        <li><strong>Model Building & Training:</strong> Implement and train machine learning models tailored to real-world scenarios.</li>
+        <li><strong>Model Deployment:</strong> Deploy machine learning models into production environments, integrating with APIs and cloud services.</li>
+        <li><strong>Monitoring & Maintenance:</strong> Understand how to monitor model performance over time and retrain models as needed.</li>
+    </ul>
+</details>
+
+<details>
+    <summary style="font-size: 1.3em; font-weight: bold;">Advanced and Custom Topics</summary>
+    <ul style="font-size: 1.2em;">
+        <li><strong>Advanced NLP & Transformers:</strong> Dive deep into cutting-edge natural language processing techniques and transformer architectures.</li>
+        <li><strong>Generative AI Models:</strong> Explore AI models that generate text, images, and audio, including GANs and diffusion models.</li>
+        <li><strong>Custom AI Solutions:</strong> Learn how to customize AI models for specialized tasks and industries.</li>
+        <li><strong>Suggest a Topic:</strong> You can suggest any advanced topics or areas of interest, and we will explore them together as part of the curriculum.</li>
+    </ul>
+</details>
+<br>
+</div>
+
+<hr />
+<div style="width: 75%; margin: 0 auto; margin-top: 0; margin-bottom: 2rem; text-align: left;">
+
+<h2><strong>Subscribe to the AI Learning Hub Newsletter</strong></h2>
+
+<p>Stay up to date with the latest AI Learning Hub releases! Subscribe to our newsletter to be informed when new content, updates, and exclusive materials are released. By subscribing, you’ll get first access to new projects and tutorials and stay in the loop with everything AI-related in the hub.</p>
+
+<p>Follow along and never miss an update—whether it’s a new deep dive, hands-on project, or additional learning resources.</p>
+
+<!-- Form to collect emails for Gumroad with modified colors for input and button -->
+<style>
+    #gumroad-follow-form-embed {
+        margin: 0px; 
+        padding: 0px; 
+        box-sizing: border-box; 
+        min-width: 0px; 
+        max-width: 100%; 
+        vertical-align: bottom; 
+        display: grid; 
+        grid-auto-flow: column; 
+        gap: 0.75rem; 
+        grid-template-columns: 1fr; 
+        grid-auto-columns: max-content; 
+        align-items: center;
+    }
+
+    #gumroad-follow-form-embed-button {
+        margin: 0px; 
+        padding: 0.75rem 1rem; 
+        border-radius: 0.25rem; 
+        background-color: rgb(0, 123, 255); /* Changed the button background color to blue */
+        color: white; 
+        font-size: 1rem; 
+        line-height: 1.4; 
+        border: none;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    #gumroad-follow-form-embed-button:hover {
+        transform: translate(-0.25rem, -0.25rem); 
+        box-shadow: 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.2); 
+    }
+
+    #gumroad-follow-form-embed-input {
+        padding: 0.75rem 1rem; 
+        font-size: 1rem; 
+        line-height: 1.4; 
+        border: solid 0.125rem rgba(0, 0, 0, 0.75); /* Increased border visibility */
+        border-radius: 0.25rem; 
+        width: 100%; 
+        background-color: white; /* Changed the input background color to white */
+        color: black; /* Changed the input text color to black */
+    }
+
+    #gumroad-follow-form-embed-input::placeholder {
+        color: rgba(0, 0, 0, 0.5); /* Changed the placeholder text color */
+    }
+</style>
+
+<form class="input-with-button" action="https://app.gumroad.com/follow_from_embed_form" method="post" id="gumroad-follow-form-embed">
+    <input type="hidden" name="seller_id" value="7693340815409"/>
+    <input id="gumroad-follow-form-embed-input" type="email" placeholder="Your email address" name="email" value=""/>
+    <button class="button primary" type="submit" id="gumroad-follow-form-embed-button">Follow</button>
+</form>
+
+<br>
+</div>
+
+<details class="tip">
+<summary>Become an AI Learning Hub Affiliate and Earn 50% Commissions!</summary>
+<p>Join the AI Learning Hub Affiliate Program and start earning commissions for every student you refer! This is your chance to promote high-quality AI, machine learning, and Python courses while earning a 50% commission on every sale.</p>
+<h3 id="how-it-works">How It Works:</h3>
+<ol>
+<li><a href="https://app.gumroad.com/signup">Create a Gumroad account</a> (if you don’t have one yet).</li>
+<li>Fill out our affiliate request form to join the program.</li>
+<li>Once approved, you’ll get a unique affiliate link.</li>
+<li>Share your link on your blog, website, or social media.</li>
+<li>When someone clicks your link and makes a purchase, you’ll earn 50% of the sale price!</li>
+</ol>
+<h3 id="commissions">Commissions:</h3>
+<p>You can promote our Lifetime Membership ($150) and monthly/yearly subscription plans ($5/month or $99/year). Gumroad handles the tracking and payouts through your Gumroad account balance. You can withdraw your earnings via the available payout methods in Gumroad.</p>
+<h3 id="important-notes">Important Notes:</h3>
+<ul>
+<li>You must have a Gumroad account to join and receive payments.</li>
+<li>Payouts are not made via PayPal. Instead, Gumroad offers direct deposit, wire transfer, or other payout methods depending on your location.</li>
+<li>Commissions are paid after a 30-day refund period.</li>
+</ul>
+<h3 id="ready-to-start-earning">Ready to start earning?</h3>
+<p>Click below to apply to become an affiliate and start promoting AI Learning Hub today!</p>
+<p><a href="https://dankornas.gumroad.com/affiliates" style="display: inline-block; padding: 0.75rem 1.5rem; background-color: rgb(0, 123, 255); color: white; text-decoration: none; border-radius: 0.25rem; font-size: 1.2em;">Apply Now</a></p>
+</details>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2024 AI Learning Hub. All rights reserved.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://facebook.com/dankornas" target="_blank" rel="noopener" title="Facebook" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://linkedin.com/in/daniel-kornas" target="_blank" rel="noopener" title="LinkedIn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://youtube.com/@dankornas" target="_blank" rel="noopener" title="YouTube" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305m-317.51 213.508V175.185l142.739 81.205z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://twitter.com/dankornas" target="_blank" rel="noopener" title="Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://bsky.app/profile/dankornas.bsky.social" target="_blank" rel="noopener" title="Bluesky" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M407.8 294.7c-3.3-.4-6.7-.8-10-1.3 3.4.4 6.7.9 10 1.3M288 227.1c-26.1-50.7-97.1-145.2-163.1-191.8C61.6-9.4 37.5-1.7 21.6 5.5 3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7 3.3-.5 6.6-.9 10-1.4-3.3.5-6.6 1-10 1.4-93.9 14-177.3 48.2-67.9 169.9C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4 102.4-103.4 28.1-156-65.8-169.9-3.3-.4-6.7-.8-10-1.3 3.4.4 6.7.9 10 1.3 64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://threads.net/dankornas" target="_blank" rel="noopener" title="Threads" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M331.5 235.7c2.2.9 4.2 1.9 6.3 2.8 29.2 14.1 50.6 35.2 61.8 61.4 15.7 36.5 17.2 95.8-30.3 143.2-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2-32.3-41-48.9-98.1-49.5-169.6v-.5c.5-71.5 17.1-128.6 49.4-169.6 36.3-46.1 90.3-69.7 160.5-70.2h.3c70.3.5 124.9 24 162.3 69.9 18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4-29.2-35.8-73-54.2-130.5-54.6-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3 28 35.6 71.2 53.9 128.2 54.4 51.4-.4 85.4-12.6 113.7-40.9 32.3-32.2 31.7-71.8 21.4-95.9-6.1-14.2-17.1-26-31.9-34.9-3.7 26.9-11.8 48.3-24.7 64.8-17.1 21.8-41.4 33.6-72.7 35.3-23.6 1.3-46.3-4.4-63.9-16-20.8-13.8-33-34.8-34.3-59.3-2.5-48.3 35.7-83 95.2-86.4 21.1-1.2 40.9-.3 59.2 2.8-2.4-14.8-7.3-26.6-14.6-35.2-10-11.7-25.6-17.7-46.2-17.8h-.7c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6.4 99.9 39.5 103.7 107.7l-.2.2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3 25.6-1.4 54.6-11.4 59.5-73.2-13.2-2.9-27.8-4.4-43.4-4.4-4.8 0-9.6.1-14.4.4-42.9 2.4-57.2 23.2-56.2 41.8z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://instagram.com/dankornas" target="_blank" rel="noopener" title="Instagram" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141m0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7m146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8m76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8M398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.footer", "navigation.tabs.sticky", "navigation.instant", "navigation.instant.progress", "navigation.instant.preview", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.annotate"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+      
+    
+  </body>
+</html>
