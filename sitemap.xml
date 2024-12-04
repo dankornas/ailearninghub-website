@@ -2,10 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ailearninghub.io/</loc>
-         <lastmod>2024-11-15</lastmod>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://ailearninghub.io/how_to_contribute/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://ailearninghub.io/how_to_create_tutorials/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/tags/</loc>
-         <lastmod>2024-11-15</lastmod>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://ailearninghub.io/ai_learning_roadmap/getting_started/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/contribute/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/basics/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/contribute/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://ailearninghub.io/ai_learning_roadmap/2_machine_learning/contribute/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://ailearninghub.io/ai_learning_roadmap/3_deep_learning/contribute/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://ailearninghub.io/ai_learning_roadmap/4_mlops_deployment/contribute/</loc>
+         <lastmod>2024-12-04</lastmod>
     </url>
 </urlset>
