@@ -2,150 +2,158 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ailearninghub.io/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/how_to_contribute/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/how_to_create_tutorials/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/support/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/tags/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/getting_started/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/contribute/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/basics/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/classses_objects/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/conditionals/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/dictionaries/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/exceptions/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/file_io/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/functions/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/lists/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/loops/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/sets/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/strings/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/tuples/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/0_programming/python/variables_data_types/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/contribute/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/matplotlib/bar_charts/</loc>
+         <lastmod>2025-04-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/matplotlib/basic_plotting/</loc>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/numpy/basics/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/numpy/data_manipulation/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/numpy/indexing_slicing/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/numpy/operations/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/numpy/statistics/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/pandas/basics/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/pandas/grouping_aggregation/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/pandas/indexing/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/pandas/merge_join/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/pandas/missing_data/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/1_working_with_data/pandas/operations/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/2_machine_learning/contribute/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/3_deep_learning/contribute/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/ai_learning_roadmap/4_mlops_deployment/contribute/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/contribute/how_to_contribute/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
     <url>
          <loc>https://ailearninghub.io/contribute/how_to_create_tutorials/</loc>
-         <lastmod>2025-04-01</lastmod>
+         <lastmod>2025-04-02</lastmod>
     </url>
 </urlset>
